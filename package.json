@@ -1,13 +1,14 @@
 {
-  "name": "test-node-gyp-2",
+  "name": "sample-ffi-napi",
   "version": "1.0.0",
-  "description": "",
+  "description": "sample for importing dll with ffi-napi on Windows OS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "jeremy-jaemin",
+  "license": "MIT",
   "dependencies": {
     "ffi-napi": "^4.0.3"
   }
