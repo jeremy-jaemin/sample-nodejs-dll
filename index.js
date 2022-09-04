@@ -1,6 +1,6 @@
 const ffi = require("ffi-napi");
 
-const libfactorial = ffi.Library("./DllTest_x64.dll", {
+const libfactorial = ffi.Library("./DllTest.dll", {
   factorial: ["int", ["int"]],
 });
 
