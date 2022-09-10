@@ -1,9 +1,20 @@
-const ffi = require("ffi-napi");
+import ffi from "ffi-napi";
 
-const libfactorial = ffi.Library("./DllTest.dll", {
-  factorial: ["int", ["int"]],
+// --------------------------------------------------------
+// test-1 : libm from OSX
+// --------------------------------------------------------
+const libm = ffi.Library("libm", {
+  ceil: ["double", ["double"]],
 });
+console.log(libm.ceil(2.5));
 
-console.log("4! = ");
-const result = libfactorial.factorial(4);
-console.log(result);
+// --------------------------------------------------------
+// test-2 : custom dll from Windows
+// --------------------------------------------------------
+// const libfactorial = ffi.Library("./DllTest.dll", {
+//     factorial: ["int", ["int"]],
+// });
+
+// console.log("4! = ");
+// const result = libfactorial.factorial(4);
+// console.log(result);
