@@ -8,11 +8,15 @@
 - index.js : 에서 dll을 명시적으로 로드하고 사용
 
 # 사용
-- npm 32비트 
+- npm 32비트 설치
 - npm install -g node-gyp
 - npm install 
 - npm run start
 
-# 기타
-- DLL 빌드 프로젝트 포함
-- DLL을 직접 빌드하고자 할 시, Visual Studio 2022 기반에서 "DllTest.sln"을 수정
+# 참고
+- DLL 프로젝트 포함
+  - DLL을 직접 빌드하고자 할 시, Visual Studio 2022 기반에서 "DllTest.sln"을 수정 
+- node-gyp
+  - https://github.com/nodejs/node-gyp
+- node-ffi-napi
+  - https://github.com/node-ffi-napi/node-ffi-napi
