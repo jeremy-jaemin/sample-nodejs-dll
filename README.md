@@ -8,4 +8,4 @@
 
 # 기타
 - DLL 빌드 프로젝트 포함
-- DLL을 직접 빌드하고자 할 시, Visual Studio 2022 기반에서 "DllTest.sln"을 수정하면 됩니다.
+- DLL을 직접 빌드하고자 할 시, Visual Studio 2022 기반에서 "DllTest.sln"을 수정
