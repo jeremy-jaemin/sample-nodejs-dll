@@ -2,7 +2,14 @@
 - ffi-napi를 이용한 nodejs에서의 Windows DLL 사용 예제
 - Windows DLL usage nodejs sample with ffi-napi on Windows OS
 
+# 파일
+- /DllTest : .dll 빌드를 위한 프로젝트
+- DllTest.dll, DllTest_x64.dll : x32, x64 dlls
+- index.js : 에서 dll을 명시적으로 로드하고 사용
+
 # 사용
+- npm 32비트 
+- npm install -g node-gyp
 - npm install 
 - npm run start
 
