@@ -8,7 +8,6 @@
 - index.js : 에서 dll을 명시적으로 로드하고 사용
 
 # 사용
-- npm 32비트 설치
 - npm install -g node-gyp
 - npm install 
 - npm run start
