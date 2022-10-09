@@ -1,5 +1,5 @@
 {
-  "name": "sample-ffi-napi",
+  "name": "sample-nodejs-dll",
   "version": "1.0.0",
   "description": "sample for importing dll with ffi-napi on Windows OS",
   "main": "index.js",
